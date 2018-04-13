@@ -24,7 +24,7 @@ defmodule HedwigFlowdock.Mixfile do
   defp deps do
     [
       {:connection, "~> 1.0"},
-      {:gun, "1.0.0-pre.1"},
+      {:gun, "1.0.0-pre.5"},
       {:hedwig, "~> 1.0"},
       {:poison, "~> 2.0"},
       {:ex_doc, ">= 0.0.0", only: :dev}
